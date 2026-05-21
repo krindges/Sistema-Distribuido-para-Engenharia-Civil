@@ -11,3 +11,5 @@ Ao final selecione a opção de instalar também ssh no computador, se não cons
   sudo apt install openssh-server -y
 e veja se o ssh está operando:
   sudo systemctl status ssh
+Modo texto
+sudo systemctl set-default multi-user.target
